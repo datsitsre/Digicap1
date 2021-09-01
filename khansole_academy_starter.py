@@ -8,7 +8,8 @@ randomly generating integers between 10 and 99 inclusive. The program returns fe
 #import the random module
 import random
 
-# use code below  to generate a random integer between 30 and 50 for example
+#
+## use code below  to generate a random integer between 30 and 50 for example
 #counter for the correct answer
 count = 0
 

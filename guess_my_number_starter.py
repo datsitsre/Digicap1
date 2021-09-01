@@ -6,8 +6,8 @@ This program checks if a user's guess of a number matches that guessed by the co
 
 # print(random.randint(30, 50))
 import random
-
-
+#
+#
 check = True #set a variable to true for the while loop
 # get the random  number
 rand_number = random.randint(1,99)
