@@ -11,7 +11,7 @@ import random
 #
 ## use code below  to generate a random integer between 30 and 50 for example
 #counter for the correct answer
-count = 0
+count = 1
 
 #loop that meets the 3 correct answers
 while count < 3:
@@ -26,5 +26,6 @@ while count < 3:
         print("You have answered ", count)  #print the number of  times the user has answer the question
     else:    #Otherwise
         print("Answer is incorrect") #print the answer is incorrect
+        count = 1
 print("Congratulations, You have masted the program")  #print a final message of congratulations
 # ********************************** YOUR CODE GOES BELOW HERE *********************************************************
