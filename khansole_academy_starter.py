@@ -10,20 +10,20 @@ import random
 
 #
 ## use code below  to generate a random integer between 30 and 50 for example
+
 #counter for the correct answer
 count = 1
-
 #loop that meets the 3 correct answers
-while count < 3:
+while count <= 3:
+
     addend1 = random.randint(1,99) #get the first number
     addend2 = random.randint(1,99) #get the second number
-    sum = addend1 + addend2   #add the two numbers
+    addition_total = addend1 + addend2   #add the two numbers
     print("What is " , addend1 ,"+" , addend2, ":  ") #print out the question for the user to ask
     user_input = int(input("Answer: "))   #Get user input
-    if sum == user_input:     #Check if the user answer is same as the addition
-        print("Your answer is correct ")  # print your correct answer
-        count +=1       #increase the count for the correct answer
-        print("You have answered ", count)  #print the number of  times the user has answer the question
+
+    if addition_total == user_input:     #Check if the user answer is same as the addition
+        print("You are correct,  You", count,"in a row")  #print the number of  times the user has answer the question
     else:    #Otherwise
         print("Answer is incorrect") #print the answer is incorrect
         count = 1
